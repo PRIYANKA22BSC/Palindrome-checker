@@ -14,7 +14,7 @@ The Palindrome Checker is a simple tool that allows users to check whether a giv
 
 ## How It Works
 
-### Palindrome Checking Logic:
+ Palindrome Checking Logic:
 
 - Strips away all non-alphanumeric characters (spaces, punctuation, etc.).
 - Converts the string to lowercase.
