@@ -1,5 +1,7 @@
 # Palindrome-checker
 
+Link-https://priyanka22bsc.github.io/Palindrome-checker/
+
 ## Overview
 
 The Palindrome Checker is a simple tool that allows users to check whether a given word, phrase, or sequence is a palindrome. A palindrome is a word or sequence that reads the same backward as forward, ignoring case, spaces, and punctuation.
