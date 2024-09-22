@@ -1,11 +1,12 @@
-let body=document.querySelector("body");
+    let body=document.querySelector("body");
     let div=document.querySelector("div");
     let input=document.querySelector("input");
-    let btn=document.querySelector("button");
+    let checkbtn=document.querySelector("#checkbtn");
     let italic=document.querySelector("i");
+    let clearbtn=document.querySelector("#clearbtn");
     let value="";
    
-    btn.addEventListener("click",()=>{
+    checkbtn.addEventListener("click",()=>{
       value=input.value;
       let rev="";
     for(i=value.length-1;i>=0;i--){
@@ -19,5 +20,9 @@ let body=document.querySelector("body");
         {
             italic.innerText=`${value} is  not palindrome`;
         }
-       
-    })
+    });
+    clearbtn.addEventListener("click",()=>{
+     input.value="";
+     italic.innerText="";
+
+    });
