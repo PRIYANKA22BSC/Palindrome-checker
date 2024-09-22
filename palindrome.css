@@ -23,7 +23,7 @@ input{
      border:0px none ;
      border-bottom: 2px solid palevioletred;
 }
-button{
+#checkbtn{
     background-color: palevioletred;
     color: aliceblue;
     border: 0px;
@@ -34,4 +34,19 @@ button{
     padding-bottom: 5px;
 }i{
     text-align: center;
+}
+
+#clearbtn{
+        background-color: wheat;
+        color:palevioletred;
+        position: absolute;
+        top:55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 0px;
+        border-radius: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:5px;
+        padding-bottom:5px;
 }
